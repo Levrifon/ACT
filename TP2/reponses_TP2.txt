@@ -38,7 +38,7 @@ Pour chaque immeuble :
 
 Fin pour
 
-Complexité : logiquement O(n) 
+Complexité : logiquement O(n) puisque la résolution est linéaire
 Question 4 :
 ____________
 
