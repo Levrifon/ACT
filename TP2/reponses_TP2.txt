@@ -1,0 +1,41 @@
+ Question 1 :
+_____________
+
+
+ Question 2 : 
+_____________
+
+
+La complexité de cette solution est en n². L'inconvenient de ce système est qu'on enregistre TOUS les points de l'immeuble alors que on pourrait simplifier en enregistrant seulement les bords de l'immeuble (donc on utilise beaucoup de mémoire inutilement)*/
+
+ Question 3 :
+_____________
+
+Je considère le triplet (X,Y,X') :
+Avec 	: X = Abscisse du premier point;
+	: Y = Ordonnée du premier point;
+	: X'= Abscisse du deuxieme point de l'immeuble;
+
+Soit les traits A et B respectivement : (X1,Y1,X'1) et (X2,Y2,X'2);
+
+Trois cas apparaissent lors de la construction des immeubles :
+- X'1 < X2 
+- X'1 > X2 
+- X'1 = X2
+
+Donc :
+ On dessine le X,Y du premier immeuble
+	Si le X' du premier immeuble < X du deuxieme immeuble {
+		On dessine le deuxieme immeuble directement;
+	} Sinon Si le X' du premier immeuble > X du deuxieme immeuble {
+		On dessine le segment X1 jusque X2;
+		On dessine le segment X2 jusque Y2;
+		etc jusqu'à la fin du dessin;
+	} Sinon { /* si X et X' sont égaux */
+		
+	}
+
+Question 4 :
+____________
+
+
