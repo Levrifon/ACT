@@ -30,9 +30,9 @@ Donc :
 	} Sinon Si le X' du premier immeuble > X du deuxieme immeuble {
 		On dessine le segment X1 jusque X2;
 		On dessine le segment X2 jusque Y2;
-		etc jusqu'à la fin du dessin;
 	} Sinon { /* si X et X' sont égaux */
-		
+		On calcule la différence de hauteur (Y1 - Y2)
+		On dessine le segment Y1 - Y2;
 	}
 
 Question 4 :
