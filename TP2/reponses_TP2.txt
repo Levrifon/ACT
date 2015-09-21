@@ -24,6 +24,7 @@ Trois cas apparaissent lors de la construction des immeubles :
 - X'1 = X2
 
 Donc :
+Pour chaque immeuble : 
  On dessine le X,Y du premier immeuble
 	Si le X' du premier immeuble < X du deuxieme immeuble {
 		On dessine le deuxieme immeuble directement;
@@ -35,6 +36,9 @@ Donc :
 		On dessine le segment Y1 - Y2;
 	}
 
+Fin pour
+
+Complexité : logiquement O(n) 
 Question 4 :
 ____________
 
